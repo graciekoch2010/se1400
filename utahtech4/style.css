@@ -1,9 +1,13 @@
+* {
+    box-sizing: border-box;
+}
 body{
     background-color: #FFFFFF;
     color: #666666;
     font-family: Verdana, Arial, sans-serif;
     background-image: linear-gradient(to bottom, #eeeeee, #ffffff);
     background-attachment:fixed;
+    margin: 0;
 }
 header{
     background-color: #003058;
