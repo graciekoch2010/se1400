@@ -1,7 +1,7 @@
 .grid-container{
     display: grid;
     grid-auto-rows: minmax(0, auto);
-    grid-template-columns: minmax (0px, 1fr) repeat(6, minamx(0,175px)) minamx(0px, 1fr);
+    grid-template-columns: minmax (0px, 1fr) repeat(6, minmax(0,175px)) minmax(0px, 1fr);
     gap: 10px;
 }
 header{
@@ -17,7 +17,7 @@ nav{
 }
 main{
     background-color: #e0ed47;
-    grid-column: 2 / 6;
+    grid-column: 1 / -1;
     height: 300px;
 }
 footer{
