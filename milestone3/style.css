@@ -17,7 +17,7 @@ nav{
 }
 main{
     background-color: #e0ed47;
-    grid-column: 1 / -1;
+    grid-column: 2 / 8;
     height: 300px;
 }
 footer{
