@@ -21,8 +21,7 @@ main{
     height: 300px;
 }
 footer{
-     background-color: #1e4a10;
+    background-color: #1e4a10;
     grid-column: 2 / 8;
     height: 300px;
-
 }
