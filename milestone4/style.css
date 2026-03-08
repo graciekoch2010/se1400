@@ -1,0 +1,29 @@
+.grid-container{
+    display: grid;
+    grid-auto-rows: minmax(0, auto);
+    grid-template-columns: minmax(0px,1fr)repeat(6,minmax(0,175px))minmax(0px,1fr);
+    gap: 10px;
+    grid-column: 2 / -2;
+}
+header{
+    background-image: url(se1400/pictures/Logo.jpg);
+    background-color: #000000;
+    grid-column: 1 / -1;
+    height: 150px;
+}
+nav{
+    background-color: #3b3c3b;
+    grid-column: 1 / -1;
+    height:50px;
+
+}
+main{
+    background-color: #3b3c3b;
+    grid-column: 1 / -1;
+    height: 300px;
+}
+footer{
+    background-color: #ffffff;
+    grid-column: 1 / -1;
+    height: 300px;
+}
