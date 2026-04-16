@@ -70,6 +70,10 @@ footer .gallery img {
     width:30%;
     height:320px;
 }
+footer .logo img {
+    width:50%;
+    height:315px;
+}
 footer{
     color:#BA1C21; 
     grid-column: 1 / -1;
